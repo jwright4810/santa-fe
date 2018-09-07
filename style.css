@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow|Roboto+Condensed|Yanone+Kaffeesatz");
+
+html {
+    scroll-behavior: smooth;   
+}
+body {
+    margin: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    background-color: rgba(255,255,255,0.8);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23b2b2b2' fill-opacity='0.18'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+ 
+
+#top-nav {
+    height: 190px;
+    background-image: url("http://res.cloudinary.com/jwkctech/image/upload/b_rgb:241a11,o_45/v1535342029/tree_house_wall-1373553.jpg");  
+    
+    background-size: cover; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+#logo img {
+    
+    height: 250px; 
+    width: 500px;
+    margin-top: 50px; 
+    margin-left: 50px; 
+    background-color: transparent;
+      
+}
+
+
+#contact {
+    height: 220px; 
+    width: 40%; 
+    text-align: center; 
+    padding-left: 30%;
+    font-size: 1.25em;
+    color: white;  
+}
+
+
+#nav-bar {
+        
+        width: 100%;
+        height: 80px;
+        padding-top: 5px;
+        padding-bottom: 5px; 
+        background-color: rgba(5, 151, 139, 0.7);
+}
+}
+
+#nav-links {
+    background-color: rgb(124, 122, 119);
+    
+    margin-top: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px; 
+    /*box-shadow: 10px 10px 25px black;
+    */
+    
+}
+
+#nav-links ul {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: right;
+    margin-left: 40%;
+    
+
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    width: 50px;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 1.25em;
+    color: rgb(221, 221, 221);
+    
+    margin: 20px;
+    
+}
+
+#home #pic{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+#wood-border {
+  display: block;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);
+}
+
+#welcome {
+  width: 100%;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: row; 
+  min-width: 700px; 
+  
+
+}
+#summary {
+  width: 70%;
+  margin: 30px; 
+}
+
+#summary h1 {
+  font-size: 3em;
+  padding: 0 auto;
+}
+
+#hours {
+  width: 200px;
+
+  padding-left: 5%;
+  padding-top: 50px;
+  margin-right 10px;
+  background-color: rgba(5, 151, 139, 0.7); 
+}
+
+/*Services section css begins*/
+#service-section {
+    margin-left: 7%;
+    width: 80%;
+    max-width: 1500px;
+    padding-top: 40px;
+    
+  }
+  
+#service-section h1 {
+    font-size: 3em;
+     
+}
+  
+  .flex-container {
+  display: flex; 
+  flex-direction: row-reverse; 
+  align-items: flex-start; 
+  background-color: white; 
+  }
+  
+  .content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 70%; 
+    /*background-color: #ccc;*/ 
+    
+  }
+  .service-title {
+    display: none;
+    grid-area: title;
+    height: 50px; 
+    
+  }
+  .service-title h1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; 
+    
+  }
+  .Picture {
+    width: 90%; 
+    margin: 0 auto;
+    
+  }
+  .Picture img {
+    display: block;
+    height: 300px; 
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+    
+    box-shadow: 10px 10px 25px black;
+    border-radius: 5px; 
+    
+  }
+  .paragraph {
+    width: 90%;
+    margin: 30px auto;
+    max-width: 600px;
+    
+  }
+  .readmore {
+    grid-area: read;
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .readmore button {
+    /*Button created via livetools.uiparade.com/button-builder.html#*/
+     border: 0px solid #454545;
+     background: #8e9091;
+     background: -webkit-gradient(linear, left top, left bottom, from(#c2c2c2), to(#8e9091));
+     background: -webkit-linear-gradient(top, #c2c2c2, #8e9091);
+     background: -moz-linear-gradient(top, #c2c2c2, #8e9091);
+     background: -ms-linear-gradient(top, #c2c2c2, #8e9091);
+     background: -o-linear-gradient(top, #c2c2c2, #8e9091);
+     background-image: -ms-linear-gradient(top, #c2c2c2 0%, #8e9091 100%);
+     padding: 10.5px 21px;
+     -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+     border-radius: 6px;
+     -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+     -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+     box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+     text-shadow: #737475 0 1px 0;
+     color: #08090a;
+     font-size: 14px;
+     font-family: helvetica, serif;
+     text-decoration: none;
+     vertical-align: middle;
+  }
+  .verticalTab {
+    width: 30%;
+    margin-top: 0px;
+    margin-right: 10px;
+   
+    
+  }
+  verticalTab ul {
+    list-style-type: none;
+   }
+  
+  .tab-item {
+    display: block;
+    background-color: white;
+    list-style-type: none;
+    width: 100%; 
+    
+    margin-top: 0px;
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+    
+    transition: background-color 0.1s linear; 
+   }
+  
+  .tab-item:hover  {
+    /*background-color: #ccc;*/
+    border-left: 4px solid black;
+    font-weight: 900;
+    font-size: 1.25em; 
+    letter-spacing: 1px;   
+    
+  }
+  
+  .clicked {
+    /*background-color: #ccc;*/ 
+    border-left: 4px solid black; 
+    font-weight: 900;
+    font-size: 1.25em; 
+    letter-spacing: 1px; 
+  }
+
+  /*Service-section ends*/
+
+  /*news begins*/
+
+  #news {
+    margin: 20px;
+  }
+
+  #news h1 {
+    margin-left: 30px;
+  }
+  
+  #news-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px; 
+    
+    
+    
+  }
+
+  .news-post {
+    width: 380px;
+    background-color: rgba(156, 154, 154, 0.705);
+     
+  }
+
+  .news-post img {
+    display: block; 
+    width: 100%;
+  }
+
+  .news-post h2 {
+    margin-left: 15px;
+  }
+
+  .news-post .date {
+    margin-left: 15px;
+    font-size: .75em;
+  }
+
+  .news-post p {
+    margin: 15px;
+  }
+  /*news ends*/
+
+  /*footer begins*/
+  footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(5, 151, 139, 0.7);
+  }
+  /*footer ends*/

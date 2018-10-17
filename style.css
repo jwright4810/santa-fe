@@ -161,15 +161,10 @@ body {
   margin: 1vw auto; 
   padding: 0 1.5vw 30px 1.5vw;
   }
-
-
-
 #about-pic {
   width: 60%;
   padding-left: -20px; 
   z-index: -2;
-    
-
 }
 #about-pic img {
    width: 100%;
@@ -202,18 +197,17 @@ body {
 
   .news-post {
     width: 30vw;
-    margin: 10px;
-  background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
-    
+    margin: 20px 10px 10px 10px;
+    background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
     box-shadow: 3px 3px 25px rgba(44, 35, 16, 0.7)
-     
   }
   .card-header{
     display: flex; 
     align-items: center;
     border-top: 5px solid rgba(55, 88, 126, 0.836);
     border-bottom: 5px solid rgba(55, 88, 126, 0.836);
-    margin: 20px;   
+    margin: 20px; 
+  
     
   }
   .wagon-wheel {

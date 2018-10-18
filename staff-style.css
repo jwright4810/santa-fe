@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo+Narrow|Roboto+Condensed|Yanone+Kaffeesatz");
-@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow|Roboto+Condensed|Yanone+Kaffeesatz");
 
 @import url('https://fonts.googleapis.com/css?family=Volkhov:700i');
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-
-
-
 /* * {
   border: 1px solid red; 
 } */
-
+html {
+       
+}
 body {
     margin: 0;
     font-family: 'Archivo Narrow', sans-serif;
@@ -113,147 +111,8 @@ body {
 }
 /* Navigation bar end */
 
-/*Services section begins*/
-
-#service-section {
-    width: 100%;
-  }
-  
-
-  
-  .flex-container {
-  display: flex; 
-  flex-direction: row-reverse; 
-  align-items: flex-start; 
-  background-color: transparent; 
-  }
-  
-  .content {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 60%; 
-    z-index: -2
-    /*background-color: #ccc;*/ 
-    
-  }
- 
-  .service-title {
-    display: none;
-    grid-area: title;
-    height: 0px; 
-    
-  }
-  .service-title h1 {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center; 
-  }
-  .Picture {
-    width: 100%; 
-    margin: 0 auto;
-    
-  }
-  .Picture img {
-    display: block;
-     
-    width: 100%;
-     
-    margin: 0 auto;
-    
-    
-    
-  }
-  .paragraph {
-    width:100%;
-    margin: 30px auto;
-    
-    
-  }
-  .readmore {
-    grid-area: read;
-    list-style-type: none;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
-
-  .verticalTab {
-    width: 40%;
-    margin-top: 0px;
-    margin-right: 10px;
-  }
-  .ser-title {
-    margin-top: 50px;
-    background-color: #EE982B;
-    height: 13vw; 
-    width: 110%;
-    font-family: 'Volkhov', serif;
-    
-    
-    color: white; 
-    border-radius: 0 10px 10px 0; 
-    display: flex;
-    flex-direction: column; 
-   
-  }
-  .ser-title h1 {
-    margin: 15px auto; 
-    font-size: 4vw; 
-
-  }
-  #wagon-wheel-break {
-    display: block;
-    width: 85%;
-    margin-left: 30px;
-    padding-bottom: 10px; 
-    }
-  .verticalTab ul {
-    list-style-type: none;
-    font-size: 3vw;
-   }
-  
-  .tab-item {
-    display: block;
-    background-color: transparent;
-    list-style-type: none;
-    width: 100%; 
-    font-size: 2.5vw!important;
-    margin-top: 0px;
-    padding: 20px;
-    text-align: left;
-    font-size: 18px;
-    margin-left: 10px; 
-    
-    transition: background-color 0.1s linear; 
-   }
-  
-  .tab-item:hover  {
-    /*background-color: #ccc;*/
-    /* border-left: 4px solid #EE982B; */
-    font-weight: 900;
-    font-size: 2.75vw; 
-    letter-spacing: 1px;   
-    
-  }
-  
-  .clicked {
-    /*background-color: #ccc;*/ 
-    /* border-left: 4px solid #EE982B;  */
-    font-weight: 900;
-    font-size: 3.25vw; 
-    letter-spacing: 1px; 
-  }
-
-  /*Service-section ends*/
-
-   /*footer begins*/
-   #wood-wrapper-foot {
+/*footer begins*/
+ #wood-wrapper-foot {
     background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
     background-size: cover;
     height: 150px; 
@@ -267,8 +126,6 @@ body {
       align-items: center; 
       width: 100%; 
       background-color: rgba(0, 180, 180, 0.836);;
-      
-      
     }
     footer p {
       color: white; 

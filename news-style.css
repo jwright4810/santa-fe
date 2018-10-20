@@ -124,7 +124,7 @@ body {
   }
   #box-heading {
     background-color: #EE982B;
-    height: 12vw; 
+    height: 12vw;
     font-family: 'Volkhov', serif;
     margin: 70px -30px 50px 0; 
     color: white; 
@@ -135,22 +135,40 @@ body {
   #box-heading h1 {
     font-size: 3.5vw;
     font-weight:900; 
-    margin: 20px 15%;   
+    margin: 20px auto;   
     }
   #wagon-wheel-break {
     display: block;
     width: 80%;
-    margin-left: 15px; 
+    margin-left: 10%; 
     }
   #box-heading h2 {
     font-size: 2.5vw;
     margin: 5px 20% ;
     }
-  #summary p {
-    font-size: 1.9vw;
-    margin: 1vw auto; 
-    padding: 0 1.5vw 30px 1.5vw;
-    }
+/* list items begin */
+
+  .article-link h2 {
+      font-size: 2vw;
+      margin-left: 4vw; 
+      transition: .2s
+  }
+  .article-link h2::before {
+    content: "";
+    display: block;
+    background: url("https://res.cloudinary.com/jwkctech/image/upload/c_scale,w_38/v1538108683/Logo%20and%20icons/wagon-wheel-blue.png") no-repeat;
+    background-size: contain;
+    width: 2vw;
+    height: 2vw;
+    float: left;
+    margin: 5px 15px 0 0;  
+  }
+
+  .article-link h2:hover {
+      font-size: 2.25vw;
+  }
+
+
   #about-pic {
     width: 60%;
     padding-left: -20px; 
@@ -175,111 +193,25 @@ body {
     box-shadow: 5px 5px 25px rgba(44, 35, 16, 0.7);
     
   }
+  /* article section */
 
-  /* Team cards begin */
-  
-  #team-container {
-    display: flex;
-    flex-direction: column;
-    margin: 100px 0px;
+  .art-section {
+      margin: 20px;
   }
-  .staff-card-one {
-    display: flex;
-    flex-direction: row; 
-    margin-left: 7vw;
-  }
-  .staff-pic img {
-    width: 47vw;
-    box-shadow: -5px 8px 25px black;
-   
-  }
-  .staff-pic {
-    background: transparent;
-    
-  }
-  .staffer {
-    display: flex; 
-    flex-direction: column;
-    margin: 10px; 
-  }
-  .staff-head {
-    background-color: #EE982B;
-   
-    width: 47vw;
-    font-family: 'Volkhov', serif;
-    padding-top: 1vw;
-    text-align: center;
-    color: white; 
-    border-radius: 10px 0px 0px 10px;
-    margin: 30px 0px 10px -40px;
-  }
-  .staff-head h1 {
-    font-size: 2vw;
-  }
-  #wagon-wheel {
-    display: block;
-    width: 60%;
-    margin: 1.25vw auto;
-  }
-  .staffer p {
-    width: 80%;
-    margin: 10px auto;
-    font-size: 1.4vw;
-    padding: 2vw;
-    border-radius: 10px;
+ 
+  .art-image img {
+      width: 25vw;
+      float: left;
+      margin: 1%;
+
   }
 
-  /*alt card with two in class name  */
-  .staff-card-two {
-    display: flex;
-    flex-direction: row-reverse; 
-    margin-right: 7vw;
-    margin-top: 100px;
-  }
-  .staff-pic-two img {
-    width: 47vw;
-    box-shadow: -5px 8px 25px black;
-  }
-  .staff-pic-two {
-    background: transparent;
-    
-  }
-  .staffer-two {
-    display: flex; 
-    flex-direction: column;
-    margin: 10px; 
-  }
-  .staff-head-two {
-    background-color: #EE982B;
-   
-    width: 47vw;
-    font-family: 'Volkhov', serif;
-    padding-top: 1vw;
-    text-align: center;
-    color: white; 
-    border-radius: 0px 10px 10px 0px;
-    margin: 30px -40px 10px 0px;
-  }
-  .staff-head-two h1 {
-    font-size: 2vw;
-  }
-  #wagon-wheel {
-    display: block;
-    width: 60%;
-    margin: 1.25vw auto;
-  }
-  .staffer-two p {
-    width: 80%;
-    margin: 10px auto;
-    font-size: 1.4vw;
-    padding: 2vw;
-    border-radius: 10px;
-  }
-/*footer begins*/
- #wood-wrapper-foot {
+
+  /*footer begins*/
+  #wood-wrapper-foot {
     background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
     background-size: cover;
-    height: 150px; 
+     
     box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);
     display: flex; 
     align-content: baseline;
@@ -290,14 +222,126 @@ body {
       align-items: center; 
       width: 100%; 
       background-color: rgba(0, 180, 180, 0.836);;
+      
+      
     }
+    .location {
+      text-decoration: none;
+      font-size: 1.10em;
+      transition: .05s;
+    }
+    .location:hover {
+      
+      letter-spacing: .01em;
+      
+    }
+  
     footer p {
       color: white; 
       padding-top: 30px;
+      
   
     }
-    .foot-fb {
-      display: box; 
-      
+    .ft-icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-bottom: 30px;
     }
     /*footer ends*/
+  
+  @media (max-width: 1100px) {
+      .wood-wrapper {
+      background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,o_62/v1535342029/tree_house_wall-1373553.jpg);
+      background-size: cover;
+      height: 225px; 
+      box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);  
+    }
+    #nav-bar {
+            background-color: rgba(0, 180, 180, 0.836);
+            /* background-color: rgba(55, 88, 126, 0.76); */
+            width: 100%;
+            display: flex; 
+            justify-content: center;
+            height: 150px;
+          }
+    #nav-links {
+        width: 55%;
+        margin-left: 3vw; 
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        /* border: 1px solid red; */
+        /*box-shadow: 10px 10px 25px black;
+        */
+    }
+    .nav-link {
+        text-decoration: none;
+        padding: 10px 2.1vw;
+        text-align: center;
+        font-size: 1.4em;
+        color: white; 
+    }
+    .nav-logo {
+      margin-bottom: 10px;
+      width: 20em;
+      height: 200px; 
+    }
+    #logo {
+      display: block;
+      margin-top: 90px;
+      margin-left: .5vw; 
+      width: 12em;
+      height: 9em;
+      z-index: 1;
+    }
+    #contact-links{
+      width: 40%; 
+      margin: 15px 10px 10px 50px; 
+      display: flex;
+      /* border: 2px solid green; */
+      flex-direction: column;
+      justify-content: flex-end;
+      align-content: flex-end;
+    }
+    #top-contact{
+      margin: 10px auto; 
+    }
+    #top-contact img {
+      width: 33vw;
+    }
+  #contact{
+    margin: 0 auto; 
+    /* border: 1px solid green;  */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+  }
+  #contact a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.75vw;
+    color: white;
+  }
+  .mail-icon img {
+    width: 1.5em;
+    height: 1.4em;
+    padding-top: 5px; 
+  }
+  .phone-num{
+    text-align:center;
+    padding: 5px 15px;
+  }
+  .mail-icon {
+    padding: 0px 20px;
+  }
+  .foot-fb {
+    padding: 0px 20px 0px 20px;
+    width: 1.5em;
+    height: 1.5em; 
+  }
+  .foot-fb img {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  }

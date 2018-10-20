@@ -44,7 +44,7 @@ body {
     text-decoration: none;
     padding: 10px 2.5vw;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white; 
 }
 .nav-logo {
@@ -96,6 +96,7 @@ body {
 .phone-num{
   text-align:center;
   padding: 5px 15px;
+  color: white;
 }
 .mail-icon {
   padding: 0px 20px;
@@ -134,7 +135,7 @@ body {
 }
 #box-heading {
   background-color: #EE982B;
-  height: 17vw; 
+  height: 13vw; 
   font-family: 'Volkhov', serif;
   margin: 70px -30px 50px 0; 
   color: white; 
@@ -199,7 +200,11 @@ body {
     width: 30vw;
     margin: 20px 10px 10px 10px;
     background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
-    box-shadow: 3px 3px 25px rgba(44, 35, 16, 0.7)
+    box-shadow: 3px 3px 25px rgba(44, 35, 16, 0.7);
+    
+  }
+  .news-post a {
+    text-decoration: none;
   }
   .card-header{
     display: flex; 
@@ -207,6 +212,7 @@ body {
     border-top: 5px solid rgba(55, 88, 126, 0.836);
     border-bottom: 5px solid rgba(55, 88, 126, 0.836);
     margin: 20px; 
+    
   
     
   }
@@ -226,6 +232,7 @@ body {
     letter-spacing: 0.05em;
     color:white; 
     margin: 2px 10px 2px 30px;
+    
   }
 
   /*news ends*/
@@ -234,7 +241,7 @@ body {
   #wood-wrapper-foot {
   background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
   background-size: cover;
-  height: 150px; 
+   
   box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);
   display: flex; 
   align-content: baseline;
@@ -248,14 +255,28 @@ body {
     
     
   }
+  .location {
+    text-decoration: none;
+    font-size: 1.10em;
+    transition: .05s;
+  }
+  .location:hover {
+    
+    letter-spacing: .01em;
+    
+  }
+
   footer p {
     color: white; 
     padding-top: 30px;
+    
 
   }
-  .foot-fb {
-    display: box; 
-    
+  .ft-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
   }
   /*footer ends*/
 
@@ -276,7 +297,7 @@ body {
         }
   #nav-links {
       width: 55%;
-      margin-left: 5vw; 
+      margin-left: 3vw; 
       display: flex;
       justify-content: flex-start;
       align-items: flex-end;
@@ -286,9 +307,9 @@ body {
   }
   .nav-link {
       text-decoration: none;
-      padding: 10px 2.5vw;
+      padding: 10px 2.1vw;
       text-align: center;
-      font-size: 1.8em;
+      font-size: 1.4em;
       color: white; 
   }
   .nav-logo {

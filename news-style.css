@@ -124,7 +124,7 @@ body {
   }
   #box-heading {
     background-color: #EE982B;
-    height: 12vw;
+    height: 10vw;
     font-family: 'Volkhov', serif;
     margin: 70px -30px 50px 0; 
     color: white; 
@@ -135,7 +135,7 @@ body {
   #box-heading h1 {
     font-size: 3.5vw;
     font-weight:900; 
-    margin: 20px auto;   
+    margin: 10px auto;   
     }
   #wagon-wheel-break {
     display: block;
@@ -148,12 +148,14 @@ body {
     }
 /* list items begin */
 
+ 
   .article-link h2 {
       font-size: 2vw;
-      margin-left: 4vw; 
+      margin: 3vw 1vw 0vw 4vw;
+
       transition: .2s
   }
-  .article-link h2::before {
+  /* .article-link h2::before {
     content: "";
     display: block;
     background: url("https://res.cloudinary.com/jwkctech/image/upload/c_scale,w_38/v1538108683/Logo%20and%20icons/wagon-wheel-blue.png") no-repeat;
@@ -162,7 +164,7 @@ body {
     height: 2vw;
     float: left;
     margin: 5px 15px 0 0;  
-  }
+  } */
 
   .article-link h2:hover {
       font-size: 2.25vw;
@@ -196,14 +198,19 @@ body {
   /* article section */
 
   .art-section {
-      margin: 20px;
+      margin: 70px 20px;
   }
  
   .art-image img {
       width: 25vw;
       float: left;
-      margin: 1%;
+      margin: .5% 3% 1% 1%;
 
+  }
+  #wagon-news-break {
+    display: block;
+    width: 60%;
+    margin: 40px auto; 
   }
 
 

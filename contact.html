@@ -39,47 +39,68 @@
     
         
         
-        <div id="about-container"> 
-            <div id="summary">
+        <div id="contact-container"> 
+            <div id="left-column">
                 <div id="box-heading">
                   <h1>Contact Us</h1>
                   <img id="wagon-wheel-break"src="https://res.cloudinary.com/jwkctech/image/upload/v1538018287/Logo%20and%20icons/wagon-wheel-line.png">
                   
-                </div>  
+                </div> 
                 <div class="contact-form">
+                            
+                            
                         <form method="post" action="/">
-                            <div>
-                              <label for="name">
-                                  <span class="required">Name: *</span> 
-                                  <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
-                              </label> 
-                            </div>
-                            <div>
-                              <label for="email">
-                                  <span class="required">Email: *</span>
-                                  <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
-                              </label>  
-                            </div>
-                            <div>		          
-                              
-                            </div>
-                            <div>		          
-                              <label for="message">
-                                  <span class="required">Message: *</span> 
-                                  <textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
-                              </label>  
-                            </div>
-                            <div>		           
-                              <button name="submit" type="submit" id="submit" >SEND</button> 
-                            </div>
-                           </form> 
+                           
+
+                                <div class="inputs">
+                                    <input id="name" name="name" type="text" placeholder="Your Name" 
+                                    required="required" tabindex="1" autofocus="autofocus"/>
+                                    <label for="name">Name: *</label> 
+                                </div>
+                                <div class="inputs">
+                                    <input id="email" name="email" type="email" placeholder="Your email" 
+                                    required="required" tabindex="2"/>
+                                    <label for="email">Email: *</label> 
+                                </div>
+                                <div class="inputs">
+                                    <textarea id="message" name="message" type="textarea" placeholder="Please write your message here." tabindex="3" required="required"></textarea>
+                                    <label for="message">Message: *</label>
+                                </div>
+
+                                <div>		           
+                                    <button name="submit" type="submit" id="submit" >SEND</button> 
+                                </div>
+                           
+                        </form> 
                 </div>
+                 
+                <h2 class=info-title>Santa Fe Veterinary Clinic, LLC</h2>
+                <div class="clinic-info">
+                <div class="clinic-add">   
+                        
+                        <h3>Address</h3>
+                        <p>404 W Texaco St. <br>Montezuma, KS 67867 <br>(620) 846-2239</p>
+                    </div>
+                    <div class="hours">
+                        <h3>Clinic Hours</h3>
+                        <p>Mon-Fri: 8:00am - 5:00pm <br>Weekends: Appointment only</p>
+                        
+                    </div>
+                </div>
+                    
+                
             </div>
-        
-           <div class="clinic-info">
-                <h2>Santa Fe Veterinary Clinic, LLC</h2>
-                <p>404 W Texaco St. <br>Montezuma, KS 67867 <br>(620) 846-2239</p>
-           </div>
+
+            <div id="right-column">
+                    <div class="pic">
+                        <img src="https://res.cloudinary.com/jwkctech/image/upload/v1540349447/sf_clinic_view.jpg.png" alt="">
+                    </div>
+                    <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3161.2118133386734!2d-100.4505845!3d37.5971737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87a779f8b9d24257%3A0x61eb0eb2ea3e1b86!2sSanta+Fe+Trail+Veterinary+Clinic%2C+LLC!5e0!3m2!1sen!2sus!4v1540345717928"  frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+
+    
+            </div>    
            
         </div>
 

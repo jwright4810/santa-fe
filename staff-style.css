@@ -190,11 +190,11 @@ body {
   }
   .staff-pic img {
     width: 47vw;
-    box-shadow: -5px 8px 25px black;
    
   }
   .staff-pic {
-    background: transparent;
+    /* background-image: url("https://res.cloudinary.com/jwkctech/image/upload/v1535342029/tree_house_wall-1373553.jpg"); */
+    box-shadow: -5px 8px 25px black;
     
   }
   .staffer {
@@ -238,10 +238,11 @@ body {
   }
   .staff-pic-two img {
     width: 47vw;
-    box-shadow: -5px 8px 25px black;
+    height: 100%;
   }
   .staff-pic-two {
-    background: transparent;
+    /* background-image: url("https://res.cloudinary.com/jwkctech/image/upload/v1535342029/tree_house_wall-1373553.jpg"); */
+    box-shadow: -5px 8px 25px black;
     
   }
   .staffer-two {

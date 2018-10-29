@@ -16,7 +16,7 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23b2b2b2' fill-opacity='0.18'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 /* Navigation bar begin */
- .wood-wrapper {
+.wood-wrapper {
   background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,o_62/v1535342029/tree_house_wall-1373553.jpg);
   background-size: cover;
   height: 225px; 
@@ -42,10 +42,21 @@ body {
 }
 .nav-link {
     text-decoration: none;
-    padding: 10px 2.25vw;
+    padding: 10px 2.3vw;
     text-align: center;
     font-size: 1.5em;
     color: white; 
+    letter-spacing: .05vw;
+    
+}
+.nav-link:hover {
+  transition: .3s;
+  /* background: rgba(236, 236, 236, 0.836);
+  color: rgb(0, 180, 180);
+  border-radius: 10px 10px 0 0; */
+  font-weight: bold;
+  
+  
 }
 .nav-logo {
   margin-bottom: 10px;
@@ -76,10 +87,10 @@ body {
   width: 34vw;
 }
 #contact{
-  margin: 0 auto; 
+  margin-left: 6.2vw;
   /* border: 1px solid green;  */
   display: flex; 
-  justify-content: center; 
+  /* justify-content: center; */
   align-items: center;  
 }
 #contact a {
@@ -87,21 +98,31 @@ body {
   text-align: center;
   font-size: 1.75vw;
   color: white;
+  padding: 0 2vw 0 1vw;
 }
-.mail-icon img {
-  width: 1.5em;
-  height: 1.4em;
-  padding-top: 5px; 
+.contact-link:hover {
+  transition: .3s;
+  /* background: rgba(236, 236, 236, 0.836);
+  color: rgb(0, 180, 180);
+  border-radius: 10px 10px 0 0; */
+  font-weight: bold;
 }
+
 .phone-num{
   text-align:center;
   padding: 5px 15px;
+  color: white;
 }
 .mail-icon {
   padding: 0px 20px;
 }
+.mail-icon img {
+  width: 1.5em;
+  height: 1.4em;
+  padding-top: 5px;
+}
 .foot-fb {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px
   width: 1.5em;
   height: 1.25em; 
 }
@@ -109,6 +130,8 @@ body {
   width: 1.5em;
   height: 1.25em;
 }
+
+
 /* Navigation bar end */
 
 #about-container {
@@ -276,11 +299,10 @@ body {
     padding: 2vw;
     border-radius: 10px;
   }
-/*footer begins*/
- #wood-wrapper-foot {
+  /*footer begins*/
+  #wood-wrapper-foot {
     background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
     background-size: cover;
-    height: 150px; 
     box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);
     display: flex; 
     align-content: baseline;
@@ -292,13 +314,31 @@ body {
       width: 100%; 
       background-color: rgba(0, 180, 180, 0.836);;
     }
+    .location {
+      text-decoration: none;
+      font-size: 1.10em;
+      transition: .05s;
+    }
+    .location:hover {
+      letter-spacing: .01em;
+    }
     footer p {
       color: white; 
       padding-top: 30px;
-  
     }
-    .foot-fb {
-      display: box; 
-      
+    .ft-icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-bottom: 30px;
+    }
+    .phone-num {
+      text-decoration: none;
+      color: white;
+    }
+    #copyright {
+      font-size: 1.2vw;
+      color: rgba(65, 65, 65, 0.472); 
+      margin-top: -30px
     }
     /*footer ends*/

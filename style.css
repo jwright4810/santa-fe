@@ -212,7 +212,7 @@ body {
 
 
 
-  /*news begins*/
+  /*cards begins*/
 
   #news {
     margin: 60px 10px;
@@ -264,7 +264,7 @@ body {
     
   }
 
-  /*news ends*/
+  /*cards ends*/
 
   /*footer begins*/
   #wood-wrapper-foot {
@@ -438,7 +438,7 @@ body {
     flex-direction: column;
     width: 197px;
     margin-top: -94px;
-    margin-left: 10px;
+    margin-left: 8px;
     
     
     
@@ -463,14 +463,16 @@ body {
   margin-bottom: 10px;
   width: 20em;
   height: 200px; 
+  
 }
 #logo {
   display: block;
   margin-top: 90px;
   margin-left: .5vw; 
-  width: 12em;
+  width: 13em;
   height: 9em;
   z-index: 1;
+  
  
 
 
@@ -486,7 +488,7 @@ animation-play-state: running;
 
 @keyframes stretch {
 0% {
-  transform: scale(.92);
+  transform: scale(.82);
   background-color: none;
   
 }
@@ -494,13 +496,13 @@ animation-play-state: running;
   background-color: none;
 }
 100% {
-  transform: scale(.95);
+  transform: scale(.84);
   background-color: none;
 }
 }
 
 #contact-links{
-  width: 50%; 
+  width: 60%; 
   margin: 15px 30px 10px 0;
   display: flex;
   /* border: 2px solid green; */
@@ -559,4 +561,116 @@ height: 1.5em;
 .mob-logo {
 display: block;
 }
+/* mobile nav bar ends */
+
+#about-container {
+  display: flex; 
+  flex-direction:column-reverse;
+  justify-content: center;
+   
+  
+}
+#summary {
+  width: 95%;
+  margin: 0 auto;
+  z-index: 1; 
+}
+#box-heading {
+  background-color: #EE982B;
+  height: 18vw; 
+  font-family: 'Volkhov', serif;
+  margin: -15px 20px 10px -30px; 
+  color: white; 
+  border-radius: 10px; 
+  display: flex;
+  flex-direction: column;
+ }
+#box-heading h1 {
+  font-size: 4.0vw;
+  font-weight:900; 
+  margin: 10px 0px 0px 47px;   
+  }
+#wagon-wheel-break {
+  display: block;
+  width: 90%;
+  margin-left: 15px; 
+  }
+#box-heading h2 {
+  font-size: 4.0vw;
+  margin: -7px 10px 10px 55%;
+  }
+#summary p {
+  font-size: 3.5vw;
+  margin: 15px 10px 10px 10px; 
+  padding: 0 1.5vw 30px 1.5vw;
+  }
+#about-pic {
+  width: 100%
+}
+#about-pic img {
+   width: 100%;
+    
+}
+#welcome {
+  width: 100%;
+  margin: 0 auto;
+  display: flex; 
+  flex-direction: row; 
+  min-width: 700px; 
+}
+
+  /*cards begins*/
+
+  #news {
+    margin: 10px 10px;
+  }
+  #news-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0px;
+    
+  }
+
+  .news-post {
+    width: 80%;
+    margin: 20px 10px 10px 10px;
+    background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
+    box-shadow: 3px 3px 25px rgba(44, 35, 16, 0.7);
+    
+  }
+  .news-post a {
+    text-decoration: none;
+  }
+  .card-header{
+    display: flex; 
+    align-items: center;
+    border-top: 5px solid rgba(55, 88, 126, 0.836);
+    border-bottom: 5px solid rgba(55, 88, 126, 0.836);
+    margin: 20px; 
+    
+  
+    
+  }
+  .wagon-wheel {
+    width: 10vw; 
+    height: 10vw;
+    padding-left: 15px;
+  }
+
+  .pic img {
+    display: block;
+    width: 100%; 
+  }
+
+  .card-header h1 {
+    font-size: 7vw;
+    letter-spacing: 0.05em;
+    color:white; 
+    margin: 2px 10px 2px 30px;
+    
+  }
+
+  /*cards ends*/
 }

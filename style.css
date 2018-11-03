@@ -40,6 +40,9 @@ body {
     /*box-shadow: 10px 10px 25px black;
     */
 }
+#home {
+  display:none;
+}
 .nav-link {
     text-decoration: none;
     padding: 10px 2.3vw;
@@ -73,7 +76,7 @@ body {
 }
 #contact-links{
   width: 40%; 
-  margin: 15px 10px 10px 50px; 
+  margin: 5px 10px 10px 90px; 
   display: flex;
   /* border: 2px solid green; */
   flex-direction: column;
@@ -84,7 +87,7 @@ body {
   margin: 10px auto; 
 }
 #top-contact img {
-  width: 34vw;
+  width: 22vw;
 }
 #contact{
   margin-left: 6.2vw;
@@ -96,7 +99,7 @@ body {
 #contact a {
   text-decoration: none;
   text-align: center;
-  font-size: 1.75vw;
+  font-size: 1.6vw;
   color: white;
   padding: 0 2vw 0 1vw;
 }
@@ -129,6 +132,10 @@ body {
 .foot-fb img {
   width: 1.5em;
   height: 1.25em;
+}
+.mob-logo {
+  display: none;
+
 }
 
 
@@ -327,9 +334,11 @@ body {
       /*box-shadow: 10px 10px 25px black;
       */
   }
+  
+
   .nav-link {
       text-decoration: none;
-      padding: 10px 2.1vw;
+      padding: 10px 1.8vw;
       text-align: center;
       font-size: 1.4em;
       color: white; 
@@ -349,18 +358,18 @@ body {
   }
   #contact-links{
     width: 40%; 
-    margin: 15px 10px 10px 50px; 
+    margin: 20px 10px 10px 100px; 
     display: flex;
     /* border: 2px solid green; */
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: right;
     align-content: flex-end;
   }
   #top-contact{
     margin: 10px auto; 
   }
   #top-contact img {
-    width: 33vw;
+    width: 22vw;
   }
 #contact{
   margin: 0 auto; 
@@ -372,7 +381,7 @@ body {
 #contact a {
   text-decoration: none;
   text-align: center;
-  font-size: 1.75vw;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -399,11 +408,155 @@ body {
   width: 1.5em;
   height: 1.5em;
 }
+.mob-logo {
+  display: none;
+
+}
 }
 
 /* mobile layout */
-@media (max-width: 900px) {
+@media screen and (max-width: 842px) {
+    
+  .wood-wrapper {
+  background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,o_62/v1535342029/tree_house_wall-1373553.jpg);
+  background-size: cover;
+  height: 140px; 
+  box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);  
+}
+#nav-bar {
+        background-color: rgba(0, 180, 180, 1);
+        /* background-color: rgba(55, 88, 126, 0.76); */
+        width: 100%;
+        display: flex; 
+        justify-content: space-between;
+        height: 140px;
+      }
+#nav-links {
+    
+    
+    display: flex;
+    flex-direction: column;
+    width: 197px;
+    margin-top: -94px;
+    margin-left: 10px;
+    
+    
+    
+   
+}
 
 
+.nav-link {
+    display: none; 
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    background-color: rgb(0, 180, 180) ; 
+    width: 170px;
+    box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);  
+    z-index: 99;
+}
+.nav-logo {
+  display: none;
+  margin-bottom: 10px;
+  width: 20em;
+  height: 200px; 
+}
+#logo {
+  display: block;
+  margin-top: 90px;
+  margin-left: .5vw; 
+  width: 12em;
+  height: 9em;
+  z-index: 1;
+ 
+
+
+animation-name: stretch;
+animation-duration: 1s; 
+animation-timing-function: ease-out; 
+animation-delay: 0;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-fill-mode: none;
+animation-play-state: running;
+}
+
+@keyframes stretch {
+0% {
+  transform: scale(.92);
+  background-color: none;
   
+}
+50% {
+  background-color: none;
+}
+100% {
+  transform: scale(.95);
+  background-color: none;
+}
+}
+
+#contact-links{
+  width: 50%; 
+  margin: 15px 30px 10px 0;
+  display: flex;
+  /* border: 2px solid green; */
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+}
+#top-contact{
+margin: 0 auto; 
+}
+#top-contact img {
+  width: 37vw;
+  /* border: 2px solid green; */
+  
+}
+#contact{
+margin: 0 auto; 
+/* border: 1px solid green;  */
+width: 100%;
+display: flex; 
+justify-content: center; 
+align-items: flex-start;
+margin-right: 30px;  
+}
+#contact a {
+text-decoration: none;
+text-align: center;
+font-size: 2.4vw;
+color: white;
+
+}
+
+.phone-num{
+text-align:center;
+padding: 5px 15px;
+}
+.mail-icon {
+padding: 0px 20px 0px 20px;
+width: 1.5em;
+height: 1.5em; 
+}
+.mail-icon img {
+width: 1.5em;
+height: 1.5em;
+}
+
+.foot-fb {
+padding: 0px 20px 0px 20px;
+width: 1.5em;
+height: 1.5em; 
+}
+.foot-fb img {
+width: 1.5em;
+height: 1.5em;
+}
+.mob-logo {
+display: block;
+}
 }

@@ -194,7 +194,7 @@ body {
 #about-pic {
   width: 60%;
   padding-left: -20px; 
-  z-index: -2;
+  z-index: -5;
 }
 #about-pic img {
    width: 100%;

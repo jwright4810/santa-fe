@@ -611,7 +611,7 @@ body {
       #wood-wrapper-foot {
         background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
         background-size: cover;
-        box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);
+        
         display: flex; 
         align-content: baseline;
         margin-top: 30px;

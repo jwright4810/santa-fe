@@ -125,7 +125,7 @@ body {
   padding-top: 5px;
 }
 .foot-fb {
-  padding: 0px 20px
+  padding: 0px 20px;
   width: 1.5em;
   height: 1.25em; 
 }
@@ -133,7 +133,7 @@ body {
   width: 1.5em;
   height: 1.25em;
 }
-.mob-logo {
+.mob-nav-logo {
   display: none;
 
 }
@@ -330,7 +330,7 @@ body {
       margin-top: -30px
     }
     /*footer ends*/
-
+   
     @media (max-width: 1100px) {
       .wood-wrapper {
       background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,o_62/v1535342029/tree_house_wall-1373553.jpg);
@@ -430,7 +430,7 @@ body {
     width: 1.5em;
     height: 1.5em;
   }
-  .mob-logo {
+  .mob-nav-logo {
     display: none;
   
   }
@@ -438,11 +438,11 @@ body {
   
   /* mobile layout */
   @media screen and (max-width: 842px) {
-      
+    
     .wood-wrapper {
     background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,o_62/v1535342029/tree_house_wall-1373553.jpg);
     background-size: cover;
-    height: 140px; 
+    height: 130px; 
     box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);  
   }
   #nav-bar {
@@ -451,7 +451,7 @@ body {
           width: 100%;
           display: flex; 
           justify-content: space-between;
-          height: 140px;
+          height: 130px;
         }
   #nav-links {
       
@@ -460,7 +460,7 @@ body {
       flex-direction: column;
       width: 197px;
       margin-top: -94px;
-      margin-left: 10px;
+      margin-left: -27px;
       
       
       
@@ -476,23 +476,31 @@ body {
       font-size: 1.4em;
       color: white;
       background-color: rgb(0, 180, 180) ; 
-      width: 170px;
+      width: 130px;
       box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);  
       z-index: 99;
   }
   .nav-logo {
     display: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     width: 20em;
     height: 200px; 
+    padding: 0;
+    
   }
-  #logo {
+  .mob-nav-logo {
     display: block;
-    margin-top: 90px;
-    margin-left: .5vw; 
-    width: 12em;
-    height: 9em;
+    margin-right: 10px;
+  }
+  #mob-logo {
+    display: block;
+    margin-top: 110px;
+    margin-left: 0px;
+    margin-bottom: 18px; 
+    width: 9em;
+    height: 6em;
     z-index: 1;
+    
    
   
   
@@ -508,7 +516,7 @@ body {
   
   @keyframes stretch {
   0% {
-    transform: scale(.92);
+    transform: scale(1);
     background-color: none;
     
   }
@@ -516,14 +524,14 @@ body {
     background-color: none;
   }
   100% {
-    transform: scale(.95);
+    transform: scale(.97);
     background-color: none;
   }
   }
   
   #contact-links{
     width: 50%; 
-    margin: 15px 30px 10px 0;
+    margin: 8px 30px 10px 0;
     display: flex;
     /* border: 2px solid green; */
     flex-direction: column;
@@ -534,7 +542,8 @@ body {
   margin: 0 auto; 
   }
   #top-contact img {
-    width: 37vw;
+    width: 35vw;
+    height: 10vw;
     /* border: 2px solid green; */
     
   }
@@ -550,7 +559,7 @@ body {
   #contact a {
   text-decoration: none;
   text-align: center;
-  font-size: 2.4vw;
+  font-size:3.7vw;
   color: white;
   
   }
@@ -581,5 +590,67 @@ body {
   .mob-logo {
   display: block;
   }
+  /* mobile nav bar ends */
+
+      /* mobile footer begins*/
+
+      .wood-border {
+        display: none;
+      }
+      #wood-wrapper-foot {
+        background-image: url(https://res.cloudinary.com/jwkctech/image/upload/b_rgb:6f552a,e_contrast:26,o_62/a_180/v1535342029/tree_house_wall-1373553.jpg);
+        background-size: cover;
+        box-shadow: 0px 5px 25px rgba(44, 35, 16, 0.7);
+        display: flex; 
+        align-content: baseline;
+        margin-top: 30px;
+        }
+        footer {
+          display: flex;
+          flex-direction: column;
+          align-items: center; 
+          width: 100%; 
+          background-color: rgba(0, 180, 180, 1);;
+          
+        }
+        .location {
+          text-decoration: none;
+          font-size: 1em;
+          transition: .05s;
+          margin: 0 16px 0 16px;
+        }
+        .location:hover {
+          letter-spacing: .01em;
+        }
+        footer p {
+          color: white; 
+          padding-top: 15px;
+          text-align: center;
+        }
+        .ft-icons {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-bottom: 30px;
+          
+        }
+        .phone-num {
+          text-decoration: none;
+        }
+        .mail-icon {
+          padding: 0px 20px;
+          margin-right: 48px;
+        }
+        .mail-icon img {
+          width: 1.7em;
+          height: 1.6em;
+          padding-top: 0px;
+        }
+        #copyright {
+          font-size: 1.2vw;
+          color: rgba(65, 65, 65, 0.472); 
+          margin-top: -30px
+        }
+        /* mobile footer ends*/
   }
   

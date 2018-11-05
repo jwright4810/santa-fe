@@ -21,7 +21,7 @@ function mobileToggle() {
     if (document.body.clientWidth <= 842) {
         const nxtlink = document.getElementsByClassName("nav-link");
         [...nxtlink].forEach(b => {
-            if (!event.target.matches("#logo")) {
+            if (!event.target.matches("#mob-logo")) {
                 b.style.display = "none";
             }
         });

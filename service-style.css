@@ -674,6 +674,7 @@ body {
   }
   .ser-title {
     margin-top: 30px;
+    margin-bottom: 10px;
     background-color: #EE982B;
     height: 13vw; 
     width: 110%;
@@ -704,9 +705,9 @@ body {
     background-color: transparent;
     list-style-type: none;
     width: 100%; 
-    font-size: 2.5vw!important;
+    font-size: 3.5vw!important;
     margin-top: 0px;
-    padding: 10px;
+    padding: 2%;
     text-align: left;
     font-size: 18px;
     margin-left: 24px; 

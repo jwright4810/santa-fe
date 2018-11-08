@@ -624,23 +624,23 @@ body {
   #box-heading {
     padding: 3% 17%;
     background-color: #EE982B;
-    width: 50%;
+    width: 53%;
     height: 100%;
     font-family: 'Volkhov', serif;
-    margin: 33px 0 50px 0;
+    margin: 30px auto;
     color: white;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
     display: flex;
     flex-direction: column;
    }
   #box-heading h1 {
-    font-size: 5.5vw;
+    font-size: 6vw;
     font-weight: 900;
     margin: 16px 10%  
     }
   #wagon-wheel-break {
     display: block;
-    width: 90%;
+    width: 100%;
     margin-left: 0px; 
     }
   #box-heading h2 {
@@ -651,7 +651,7 @@ body {
     display: block;
     font-size: 3.9vw;
     margin: 0 0 0 0;
-    padding: 0 19vw 30px 3.5vw;
+    padding: 0 10%;;
     }
   #about-pic {
     display: none;

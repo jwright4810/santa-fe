@@ -744,6 +744,7 @@ body {
   }
   .clinic-info h3 {
     font-size: 8vw;
+    margin-bottom: 10px;
   }
   .clinic-info p {
     font-size: 7vw;

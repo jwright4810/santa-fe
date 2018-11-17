@@ -624,24 +624,26 @@ body {
   #box-heading {
     padding: 3% 17%;
     background-color: #EE982B;
-    width: 53%;
+    width: 55%;
     height: 100%;
     font-family: 'Volkhov', serif;
-    margin: 30px auto;
+    margin: 30px 0;
     color: white;
-    border-radius: 10px 10px 10px 10px;
+    
     display: flex;
     flex-direction: column;
    }
   #box-heading h1 {
     font-size: 6vw;
     font-weight: 900;
-    margin: 16px 10%  
+    margin: 4px 21%;
+    width: 102%;
     }
   #wagon-wheel-break {
-    display: block;
+    display: none;
     width: 100%;
     margin-left: 0px; 
+    height: 18px;
     }
   #box-heading h2 {
     font-size: 2.5vw;
